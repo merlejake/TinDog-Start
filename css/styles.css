@@ -31,8 +31,7 @@ font-family: "Montserrat-Black";
 }
 
 .container-fluid{
-  padding: 3% 15%;
-
+  padding: 3% 15% 7%;
 }
 
 .btn {
@@ -42,10 +41,15 @@ font-family: "Montserrat-Black";
 #title {
   background-color: #ff4c68;
   color: #fff;
+  position: relative;
+  z-index:-1;
+  height: 750px;
 }
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%
 }
 
 /* Download buttons */
@@ -59,6 +63,8 @@ font-family: "Montserrat-Black";
 #features {
   background-color: #fff;
   padding: 7% 15%;
+  position: relative;
+  z-index: 1;
 
 }
 .fet-box{
@@ -96,7 +102,6 @@ p{
 
 
 #testimonials{
-padding: 7% 15%;
 text-align: center;
 background-color: #ef8172;
 color: #fff;
@@ -106,6 +111,10 @@ color: #fff;
   width:10%;
   border-radius: 100%;
   margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
 
 
@@ -121,4 +130,16 @@ color: #fff;
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+
+}
+
+.pricing-col{
+  margin: 3% 2%;
+}
+.price-h2{
+  color: black;
 }
